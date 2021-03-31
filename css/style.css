@@ -13,9 +13,10 @@ div {
 }
 
 .fondrouge {
-  align-content: center;
+  color : white;
   background: red;
   width: fit-content;
+  margin: auto;
 }
 
 .cadre {
@@ -25,4 +26,15 @@ div {
   padding: 20px;
   width: min-content;
   margin: auto;
+}
+
+.over :hover {
+    border : 1px solid grey;
+    border-radius: 2px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.over {
+    transition: all 0.5 ease;
 }
